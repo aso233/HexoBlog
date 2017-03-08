@@ -1,11 +1,11 @@
 ---
 title: AndfixTool
-date: 2016-06-12 18:13:00
-tags:
+date: 2016-08-28 18:13:00
+tags: [热修复, Apktool]
 ---
 # apktool #
 近期研究阿里的[Andfix](https://github.com/alibaba/AndFix)，这是一个可实现代码热修复功能的开源项目，使用其提供的apkpatch.jar生成新旧apk的差分包，然后将差分包放置指定位置进行加载，旧的包加载完成后可实现方法的替换，可用于紧急修复线上的bug。生成差分包的jar包代码并没有开源，所以我们的目的是弄清jar包的工作原理并自己实现编译出一个可用的jar包。  
- 
+<!-- More --> 
 使用jd-gui打开apkpatch-1.0.3.jar，jar包结构如下:  
 ![](http://i.imgur.com/x44V76U.png)  
 jar包包含的代码比较多，主要包括几个重点：  

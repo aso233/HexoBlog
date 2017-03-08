@@ -1,13 +1,13 @@
 ---
 title: xutils HttpUtils
-date: 2016-06-11 18:13:00
-tags:
+date: 2014-08-20 18:13:00
+tags: [xutils, AysncTask]
 ---
 # xutils HttpUtils #
 
 近期由于项目需要开始研究学习xuitls框架，xutils是一款相当比较成熟的框架，主要模块涵盖了界面，数据库，网络以及图片缓存处理，已经基本能够满足一个app所需，此次重点学习其网络模块 HttpUtils。  
 github项目托管地址: [https://github.com/wyouflf/xUtils.git](https://github.com/wyouflf/xUtils.git)
-
+<!-- More -->
 HttpUtils主要提供了以下几种接口：  
 1. configxxxxx： 配置参数信息，包括：返回结果字符编码，Http本地缓存大小、有效期等，超时时间。  
 2. sendxxx：发送请求接口，包括常规的send和sendSync  

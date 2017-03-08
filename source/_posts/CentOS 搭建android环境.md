@@ -1,7 +1,7 @@
 ---
 title: CentOS 搭建android环境
-date: 2016-06-12 18:13:00
-tags:
+date: 2016-10-14 18:13:00
+tags: [CentOS, android环境搭建]
 ---
 # CentOS 搭建android环境 #
 
@@ -13,7 +13,7 @@ tags:
 	`export JAVA_HOME=/usr/local/soft/jdk1.6.0_14 `  
 	`export PATH=$JAVA_HOME/bin:$PATH `  
 	`export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar `  
-
+<!-- More -->
 
 2. 安装android SDK
 	- 下载android SDK： [https://developer.android.com/studio/index.html](https://developer.android.com/studio/index.html "https://developer.android.com/studio/index.html") 并解压  

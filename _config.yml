@@ -3,16 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: aso233 blog
-subtitle:
+title: aso233
+subtitle: 善于总结的人运气都不会太差。
 description:
 author: aso233
 language:
 timezone:
 
+
+sitemap:
+path: sitemap.xml
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://aso233.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,7 +66,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: spfk
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -71,4 +74,3 @@ deploy:
   type: git
   repository: git@github.com:aso233/aso233.github.io.git
   branch: master
-avatar: "http://v1.qzone.cc/avatar/201509/01/23/38/55e5c68bd9af2489.jpg"
